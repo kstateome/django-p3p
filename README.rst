@@ -1,6 +1,8 @@
 Django P3P
 ==========
 
+This is a fork maintained for Django 1.7.x compat.
+
 About Django P3P
 ----------------
 If your webpage uses sessions you willl lose your session in Internet Explorer when your page gets embedded into in iFrame. This problem can be solved by setting application specific `P3P headers <http://en.wikipedia.org/wiki/P3P>`_.
