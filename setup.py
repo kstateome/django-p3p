@@ -10,6 +10,8 @@ setup(
     keywords='session patch middleware django',
     url='http://github.com/jjanssen/django-p3p',
     packages=find_packages(exclude=['p3p_example']),
+    package_dir={'p3p':
+                 'p3p'},
     include_package_data=True,
     platforms='any',
     license='Apache License, Version 2.0',
